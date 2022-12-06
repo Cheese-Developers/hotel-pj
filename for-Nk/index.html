@@ -5,9 +5,100 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./css/app.css">
+    <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <style>
+        
+    </style>
 </head>
 <body>
-    <h4 class="">Hello</h4>
-    <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, aspernatur.</p>
+    <header class="head">
+        <nav class="navbar navbar-expand-lg nav-bg sticky-top">
+            <div class="container-fluid">
+              <a class="navbar-brand mercure-nav fs-1" href="#">Mercure</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mercure" aria-controls="mercure" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="mercure">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Services
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link">Disabled</a>
+                  </li>
+                </ul>
+
+                <div class="">
+                    <a href="#" class="text-decoration-none text-dark">Book Now</a>
+                    <a href="#" class="text-decoration-none text-dark ms-4">Register</a>
+                  </div>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    <section class="hero container-fluid" style="background-image: url(../media/midrand.jpg); height: 800px; object-fit: contain;">
+        <div class="hero-bg">
+            <div class="container">
+                <div class="row ">
+                    <div class="col-12 text-center mt-5 mb-0">
+                        <div class="">
+                            <!-- <h1 class="display-4">Mercure</h1>
+                            <h2 class="fs-2">Hotel</h2> -->
+                            
+                             <img src="../media/logo.png" alt="" class="" style="width: 200px; height: 85px;">
+                            
+                        </div>
+                    </div>
+                </div>
+        
+                     <div class="row justify-content-center align-items-center g-5 mt-5">
+                        <div class="col-10 col-lg-6">
+                            <div class="">
+                                <img src="../media/about-section.jpg" class="images w-100" alt="" style="width: 520px; height: 400px; object-fit: cover;" >
+                            </div>
+                        </div>
+                        <div class="col-10 col-lg-6">
+                            <div class="mb-0">
+                                <ul class="d-flex flex-row m-0 ps-5 p-lg-0 text-center text-lg-start" style="list-style: none;">
+                                    <li class=""><i class="bi bi-star-fill fs-5 me-1 star"></i></li>
+                                    <li class=""><i class="bi bi-star-fill fs-5 me-1 star"></i></li>
+                                    <li class=""><i class="bi bi-star-fill fs-5 me-1 star"></i></li>                                    
+                                </ul>
+                                <h1 class="display-3 fw-bold text-center text-lg-start mt-0 h1-mercure-title" style="color: rgb(53, 11, 59);">
+                                    MERCURE HOTEL-
+                                   <br>
+                                    SOUTH AFRICA 
+                                </h1>
+                                <p class="fs-5">
+                                    Prepare your stay in South Africa with ease and in complete confidence when booking your next holiday, seminar or meeting room, and discover Mercure hotels.
+                                </p>
+                                <div class="d-flex justify-content-center justify-content-lg-start">
+                                    <button class="btn bg-transparent border border-2 border-secondary rounded-pill fs-5">View More</button>
+                                    <button class="btn ms-3 rounded-pill fs-5 promo-btn">Promotions</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>                    
+            </div>
+        </div>
+    </section>
+
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
