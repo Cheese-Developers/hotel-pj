@@ -1,9 +1,33 @@
+// $grid-breakpoints: (
+//   xs: 0,
+//   sm: 576px,
+//   md: 768px,
+//   lg: 992px,
+//   xl: 1200px,
+//   xxl: 1400px
+// );
 .main-section{
     letter-spacing: 10px;
-//    margin-bottom: -50px;
 
 }
-.second-section{
+.card-photo{
+    object-fit:cover;
+    height: 250px;
 }
+.card-line{
+    line-height: 30px;
+}
+@media (max-width:500px) {
+    .main-section{
+    letter-spacing: normal;
+
+    }
+//     .card{
+//     width: 300px;
+//     display: block;
+//     margin:0 auto;
+// }
+}
+
 
 @import "../node_modules/bootstrap/scss/bootstrap.scss";

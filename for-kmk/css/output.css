@@ -3,6 +3,20 @@
   letter-spacing: 10px;
 }
 
+.card-photo {
+  object-fit: cover;
+  height: 250px;
+}
+
+.card-line {
+  line-height: 30px;
+}
+
+@media (max-width: 500px) {
+  .main-section {
+    letter-spacing: normal;
+  }
+}
 /*!
  * Bootstrap  v5.2.3 (https://getbootstrap.com/)
  * Copyright 2011-2022 The Bootstrap Authors
