@@ -1,0 +1,118 @@
+@import"../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/mixins/_breakpoints.scss";
+@import "../node_modules/bootstrap/scss/variables";
+
+.header-large{
+   background-color: #cdb4db61;
+   font-size: 100px;
+   background-clip: text;
+   -webkit-background-clip: text;
+   color: transparent;
+
+
+}
+
+.header-small{
+    font-size: 40px;
+    margin-top: -70px;
+    
+}
+
+.header-border{
+    width: 150px;
+}
+
+.header-border2{
+    width: 150px;
+    background-color: #fff;
+
+}
+$border-style:solid;
+$border-color:#cdb4db;
+$border-width:1px;
+
+.contact-box{
+    background-color: #cdb4db;
+    border-radius: 20px;
+}
+
+.contact-info{
+    line-height: 10px;
+}
+
+.contact-info:hover{
+    color: rgba(0, 0, 0, 0.705);
+}
+
+.address-box{
+    background-color: #cdb4db;
+    border-radius: 20px;
+}
+
+.header-border3{
+    width: 100px;
+    background-color: #fff;
+
+}
+
+.address-text{
+    line-height: 30px;
+
+}
+
+$theme-colors:(
+    "custom": #cdb4db,
+);
+
+
+$input-padding-y:10px;
+$input-border-color:#cdb4db;
+$input-border-width:2px;
+
+
+
+.map{
+    box-shadow:0 0 20px #000;
+    border-radius: 15px;
+}
+
+.footer-content{
+   background-color: #9665c2;
+   background-clip: text;
+   -webkit-background-clip: text;
+   color: transparent;
+
+}
+
+@include media-breakpoint-down(lg) { 
+    .footer-content{
+       display: block;
+       text-align: center;
+    };
+    .header-box{
+        display: block;
+        text-align: center;
+    }
+    .map{
+        width:100%;
+    }
+
+};
+@include media-breakpoint-down(sm){
+    .header-box{
+        display: block;
+        text-align: center;
+    };
+    .map{
+        width:100%;
+    }
+
+}
+
+
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+
+
+
